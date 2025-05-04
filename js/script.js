@@ -78,7 +78,7 @@ secondPlayerNumberBtn.addEventListener("click", () => {
   if (firstPlayerNumber.value == secondPlayerNumber) {
     secondNumber.style.display = "none";
     Win.style.display = "block";
-    header.innerHTML=  `${secondPlayerName.value} 🎉 Congratulations!`;
+    header.innerHTML=  `${secondPlayerName.value}`;
   } else {
     chances.push(secondPlayerNumber)
     console.log(chances);
