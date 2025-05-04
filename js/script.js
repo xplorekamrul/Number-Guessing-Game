@@ -33,7 +33,7 @@ firstPlayerBtn.addEventListener("click", () => {
   if (firstPlayerName.value !== "") {
     playerOneName.style.display = "none";
     errorTxt.style.display = "none";
-    header.innerHTML = "Player - 1 ";
+    header.innerHTML = "Input A Number ";
     playerOneNumber.style.display = "block";
   } else {
     errorTxt.style.display = "block";
