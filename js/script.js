@@ -97,5 +97,6 @@ replay.addEventListener("click", ()=>{
   Failed.style.display = "none";
   Win.style.display = "none"
   header.style.display = "block";
+  header.innerHTML = "Wanna play Game ?"
 
 })
