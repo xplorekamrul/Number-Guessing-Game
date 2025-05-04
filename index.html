@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Number Guessing Game</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <div class="screen">
+      <div>
+         <h1 id="header"> Wanna play Game ?</h1>
+
+         <div id="playerOneName">
+            <input type="text" id="firstPlayerName" placeholder="What is Your Name?" required>
+            <button id="firstPlayerBtn">Start Game</button>
+         </div>
+         <!-- first player number -->
+         <div id="playerOneNumber">
+            <input type="number" id="firstPlayerNumber" placeholder="Enter A Number 0 - 9 " required>
+            <button id="firstPlayerNumberBtn">Start Game</button>
+         </div>
+
+         <!-- second player  -->
+         <div id="playerTwoName">
+            <input type="text" id="secondPlayerName" placeholder="Enter Your Name " required>
+            <button id="secondPlayerBtn">Start Game</button>
+         </div>
+         <!-- Second player number Guess-->
+         <div id="secondNumber">
+            <p id="Chances">You have 5 Chances. </p>
+            <input type="number" id="secondPlayerNumber" placeholder="Guess The Number 0 - 9 " required>
+            <button id="secondPlayerNumberBtn">Check</button>
+         </div>
+         <p id="errorTxt">Name is Missing !</p>
+      </div>
+
+      <div id="Win" style="display: none; text-align: center; padding: 20px;">
+         <h2 style="color: green; font-size: 24px;">🎉 Congratulations!</h2>
+         <p style="font-size: 18px;">You guessed it right! You are the winner 🏆</p>
+         <button id="replay" style="padding: 10px 20px; margin-top: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+           🔁 Replay
+         </button>
+       </div>
+       
+       <div id="Failed" style="display: none; text-align: center; padding: 20px;">
+
+         <h3 id="faildTxt" style="color: rgb(251, 17, 17); font-size: 24px;"></h3>
+         <h2 id="faildTxt" style="color: rgb(251, 17, 17); font-size: 24px;">Game Over!</h2>
+         <p style="font-size: 18px;">You've used all your chances. Better luck next time! 💔</p>
+         <button id="replay" style="padding: 10px 20px; margin-top: 10px; background-color: #ee2314; color: white; border: none; border-radius: 5px; cursor: pointer;">
+           🔁 Replay
+         </button>
+       </div>
+       
+   </div>
+
+
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>

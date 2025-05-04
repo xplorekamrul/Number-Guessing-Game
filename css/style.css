@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+body{
+   background: #c4c4c4;
+}
+.screen{
+   width: 35%;
+   height: 350px;
+   margin: 180px auto;
+   background: #fff;
+   padding: 50px 70px;
+   border-radius: 20px;
+   text-align: center;
+}
+input{
+   width: 80%;
+   height: 40px;
+   border-radius: 30px;
+   border: 1px solid #c4c4c4;
+   margin: 20px 0;
+   padding-left: 30px;
+}
+input::placeholder{
+   color: #c4c4c4;
+   padding-left: 10px;
+}
+
+button{
+   padding: 10px 40px;
+   border-radius: 30px;
+   border: none;
+   background: #5e23f4;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+#errorTxt{
+   background: #fb0303;
+   color: #fff;
+   width: 60%;
+   padding: 10px;
+   border-radius: 5px;
+   margin: 20px auto;
+   font-size: 20px;
+   font-weight: 700;
+   display: none;
+}
+
+#playerOneNumber{
+   display: none;
+}
+/* player two  */
+#playerTwoName{
+   display: none;
+}
+#secondNumber{
+   display: none;
+}
+#Win{
+   display: none;
+}
+#Failed{
+   display: none;
+}
+
+
+#Chances{
+   margin-top: 10px;
+
+}
